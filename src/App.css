@@ -17,10 +17,6 @@
   max-width: none;
 }
 
-.github-calendar svg {
-  preserve-aspect-ratio: none;
-}
-
 .github-calendar svg rect {
     cursor: pointer;
     transition: opacity 0.2s ease;
