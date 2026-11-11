@@ -3,7 +3,21 @@
 @import "tailwindcss";
 
 @theme {
-  --font-geist: "Geist", sans-serif;
+    --font-geist: "Geist", sans-serif;
 }
 
+.github-calendar {
+  width: 100%;
+  color: #4a4a4a;
+}
 
+.github-calendar svg {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+/* Stretch the calendar horizontally */
+.github-calendar svg {
+  preserve-aspect-ratio: none;
+}
