@@ -17,7 +17,29 @@
   max-width: none;
 }
 
-/* Stretch the calendar horizontally */
 .github-calendar svg {
   preserve-aspect-ratio: none;
+}
+
+.github-calendar svg rect {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.github-calendar svg rect:hover {
+  opacity: 0.7;
+}
+
+.react-activity-calendar__tooltip {
+  background-color: #0f0f0f;
+  color: #e5e5e5;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: "Geist", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  z-index: 50;
 }

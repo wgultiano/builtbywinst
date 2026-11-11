@@ -26,6 +26,15 @@ function GithubActivity() {
                             '#39d353'
                         ]
                     }}
+                    tooltips={{
+                        activity: {
+                            text: (activity) =>
+                                `${activity.date}: ${activity.count} contributions`,
+                            placement: 'top',
+                            offset: 8,
+                            hoverRestMs: 100
+                        }
+                    }}
                 />
 
             </div>
