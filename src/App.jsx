@@ -1,4 +1,5 @@
 import Hero from './components/Hero';
+import About from './components/About';
 import GithubActivity from './components/GithubActivity';
 import './App.css';
 
@@ -9,11 +10,16 @@ function App() {
 
         <Hero />
 
-      <section className="mt-20">
-        <GithubActivity />
-      </section>
+        <div className="mt-12">
+          <About />
+        </div>
 
-    </main>
+        <div className="mt-12">
+          <GithubActivity />
+        </div>
+
+
+      </main>
     </div >
   );
 }

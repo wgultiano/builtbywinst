@@ -2,9 +2,9 @@ import { GitHubCalendar } from 'react-github-calendar';
 
 function GithubActivity() {
     return (
-        <section className="mt-20 w-full">
+        <section className="w-full">
 
-            <h2 className="text-xl font-bold mb-6 text-white">
+            <h2 className="text-xl font-semibold text-white">
                 GitHub Activity
             </h2>
 
